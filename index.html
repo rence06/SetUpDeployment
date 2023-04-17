@@ -17,16 +17,20 @@
 </head>
 <body class="fullscreen">
   <div class="container">
-    <h1 class="title">The development of web-based library management system with recommendation and chat technology for Laguna State Polytechnic University San Pablo City Campus. </h1>
-    <p>Proposed Research Title by</p>
-    <p>Clarence Jake Nonilla</p>
-    <canvas id="canvas" style="height: 400px;width:300;border: 1px solid;"></canvas>
-    <script src="snake.js"></script>
-
-    <div>
-
-    </div>
+    <h1 class="title">The researcher / developer proposed a system that has a unique/added features like chat technology that can help its client to increase the communication between the users</h1>
+    <p style=" font-size: 1.5rem;">Clarence Jake Bonilla</p>
+    <br>
+    <br>
+    <p>Click the Moon Icon to change into dark mode</p>
   </div>
-  <script src="js/main.js"></script>
 </body>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script src="darkmode.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
 </html>
